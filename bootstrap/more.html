@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> More info </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css"
+	integrity="sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<!-- grid system classes  
+xs - phones
+sm- tablets
+md - desktops
+lg - large desktops
+ -->
+<!--  <nav class="navbar navbar-inverse navbar-static-top"> -->
+  </head>
+  <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  <span class="src-only"> </span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  </button>
+  
+  <a class="navbar-brand" href="#"> Bootstrap </a>
+  <div class="navbar-collapse collapse">
+  <ul class="nav navbar-nav navbar-right">
+  <li class="active"><a href="#">Home </a> </li>
+   <li><a href="#" data-toggle="modal" data-target="#MyModal"> About </a> </li>
+   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Learn <b class="caret"></b>
+   <ul class="dropdown-menu"> 
+   <li class="dropdown-header"> Example </li>
+   <li> <a href="#"> C++ </a> </li>
+   <li> <a href="#"> Java </a> </li>
+   </ul>
+   </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  
+        <!-- it is inside container class
+  <div class="page-header"> 
+<h1> button </h1>
+</div>
+<p> 
+<button type=button class="btn btn-default"> Default </button>
+<button type=button class="btn btn-Primary"> Primary </button>
+<button type="button" class="btn btn-Success"> Success </button>
+<button type="button" class="btn btn-Info"> Info </button>
+<button type="button" class="btn btn-Warning"> Warning </button>
+<button type="button" class="btn btn-Danger"> Danger </button>
+<button type="button" class="btn btn-Link"> Link </button>
+ </p>
+  lg = large sm= small xs = extra small these are for button sizes example 
+ <button type="button" class="btn btn-sm btn-Link"> Link </button>
+ --> 
+	<!-- Instead of <p> tag we can also use 
+     <div class="modal-header"> Modal Header </div>
+	 <div class="modal-header"> Modal Header </div>
+	 
+	 Instead of
+	 <a href="#" class="close" data-dismiss="modal" aria-label="close"> &times; </a>
+	 we can also use 
+	 <button type="button" class="btn btn-default" data-dismiss="modal"> &times; </button>
+	 or	
+    <button type="button" class="close" data-dismiss="modal"> &times; </button> 
+ -->	
+<!-- 
+  <a href="#"> Likes <span class="badge"> 10 </span> </a>
+  <a href="#"> Comments <span class="badge"> 20 </span> </a>
+  <button type="button" class="btn btn-Success"> Likes <span class="badge"> 10 </span> </button>
+  
+  <h2> Likes <span class="label label-success"> 10 </span> </h2> 
+  <span class="label label-success"> 10 </span>
+    -->
+   <!--
+  <div class="well"> <h1> Mownika </h1></div>
+ <div class="alert alert-danger">
+ <a href="#" class="close" data-dismiss="alert" aria-label="close"> &times; </a>
+ <h6> Danger alert </h6> </div> 
+  -->
+  <!--
+ <div class="alert alert-danger"><h6> Danger alert </h6> </div> 
+ <div class="alert alert-success"><h6> Success alert </h6> </div> 
+ <div class="alert alert-default"><h6> Default alert </h6> </div> 
+ <div class="alert alert-warning"><h6> Warning alert </h6> </div> 
+ <div class="alert alert-info"><h6> Info alert </h6> </div> 
+ -->
+   
+  <div class="container">
+  
+    <div class="jumbotron text-center">
+  <h1> Courses </h1>
+  <p> Courses on c++, Java , JavaScript </p>
+  <button type=button class="btn btn-Primary"> more info </button>
+  <button type="button" class="btn btn-Success"> Thankyou </button>
+  </div>
+ 
+ <button type="button" class="btn btn-Danger" data-toggle="modal" data-target="#MyModal"> Open </button>
+ <div id="MyModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content"> 
+	
+	<div class="modal-header"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		<button type="button" class="close" data-dismiss="modal"> &times; </button> 
+	</div>
+	</div>
+</div>
+</div>
+
+<br>
+<br>
+   
+  <div class="row"> 
+  
+    <div class="col-sm-4">
+    <div class="panel panel-default"> 
+	<div class="panel-heading">
+	<h3 class="panel-title"> Title </h3>
+	</div>
+	<div class="panel-body"> 
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+	    tempor incididuntut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="panel-footer"> Footer </div>
+  </div>
+    </div>
+		
+	<div class="col-sm-4">
+    <div class="panel panel-default"> 
+	<div class="panel-heading">
+	<h3 class="panel-title"> Title </h3>
+	</div>
+	<div class="panel-body"> 
+	<p> Ut enim ad minim veniam, quis nostrud exercitation 
+	ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+	<div class="panel-footer"> Footer </div>
+  </div>
+    </div>
+	
+	<div class="col-sm-4">
+    <div class="panel panel-default"> 
+	<div class="panel-heading">
+	<h3 class="panel-title"> Title </h3>
+	</div>
+	<div class="panel-body"> 
+	<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+	        fugiat nulla pariatur.</p>
+	</div>
+	<div class="panel-footer"> Footer </div>
+  </div>
+    </div>
+  
+  </div>
+  
+  
+  <form class="form-inline" role="form"> 
+  <div class="form-group"> 
+     <label for="email"> Email : </label>
+	 <input type="email" class="form-control" id="email">
+  </div>
+  
+  <div class="form-group"> 
+     <label for="pwd"> Password : </label>
+	 <input type="password" class="form-control" id="pwd">
+  </div>
+  
+  <!--
+  <div class="checkbox">
+    <label> <input type="checkbox"> Click me </label>
+  </div> -->
+  
+   <button type="submit" class="btn btn-default"> Submit </button>
+  </form>
+  
+  </div>
+  
+  <br>
+  
+    <!--
+     class="form-inline"
+	 class="form-horizontal"
+	 -->
+		
+<!-- 	
+<form class="form-horizontal" role="form"> 
+  <div class="form-group"> 
+     <label for="email" class="control-label col-sm-2"> Email : </label>
+	 <div class="col-sm-10"> 
+	 <input type="email" class="form-control" id="email">
+	 </div>
+  </div>
+  
+  <div class="form-group"> 
+     <label for="pwd" class="control-label col-sm-2"> Password : </label>
+	 <div class="col-sm-10">
+	 <input type="password" class="form-control" id="pwd">
+	 </div>
+  </div>
+  
+  <div class="col-sm-offset-2 col-sm-10">
+  <div class="checkbox"> 
+    <label> <input type="checkbox"> Click me </label>
+  </div>
+  </div>
+  
+  <button type="submit" class="btn btn-default"> Submit </button>
+  </form>
+ -->
+		
+  <!-- Footer -->
+  <div class="navbar navbar-default navbar-static-bottom"> 
+  <div class="container"> 
+<div class="navbar-text pull-left"> 
+<p> Copyright Bootstrap 2019 </p>
+</div>   
+
+<div class="navbar-text pull-right"> 
+<a href="#"> <i class="fa fa-facebook fa-2x"></i></a>
+<a> <i class="fa fa-linkedin fa-2x"></i> </a>
+<a><i class="fa fa-google-plus fa-2x"></i></a>
+</div>
+
+  </div>
+  </div>
+  
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+<!-- 
+https://www.youtube.com/watch?v=lYdXSIXQm60&list=PLS1QulWo1RIaBQ1DOYYiJz38edqH_zwM1&index=19
+-->
